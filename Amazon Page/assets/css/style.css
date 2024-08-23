@@ -41,7 +41,7 @@ main{
 }
 .gift-cards p{
     color: whitesmoke;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 .holiday-gift{
     background-image: url('./images/bg-image.png');
@@ -59,7 +59,7 @@ main{
 }
 .perfect-gift{
     background-color: white;
-    height: 44vh;
+    height: 49vh;
     margin-top: 35px;
 }
 .perfect-gift h4{
@@ -77,24 +77,23 @@ main{
 }
 .conteiner-imgGift{
     text-align: center;
-    
+    padding-left: 4em;
 }
 .perfect-gift img{
-    width: 11px;
+    width: 17em;
     display: inline-block;
     vertical-align: top;
-    min-height: 20em;
-    width: 15em;
-    margin-right: 20px;
+    min-height: 23em;
+    width: 20em;
+    margin-right: 80px;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+
 }
-
-
  .conteiner-title{
     padding-top: 20px;
-    padding-left: 2.5em;
+    padding-left: 9.5em;
     padding-bottom: 20px;
 }
 .purchasing-tips img{
