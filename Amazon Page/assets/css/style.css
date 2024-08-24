@@ -45,6 +45,8 @@ main{
 }
 .holiday-gift{
     background-image: url('./images/bg-image.png');
+    background-size: 80%;
+    background-position-y: -85%;
     background-position-x: 50%;
     text-align: center;
     color: whitesmoke;
@@ -85,7 +87,7 @@ main{
     vertical-align: top;
     min-height: 23em;
     width: 20em;
-    margin-right: 80px;
+    margin-right: 5em;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
@@ -133,7 +135,7 @@ main{
     height: 15em;
 }
 .img-footer img{
-    width: 12em;
+    width: 11em;
     height: auto;
     padding-left: 30px;
     padding-top: 5em;
