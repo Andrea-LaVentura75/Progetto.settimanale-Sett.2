@@ -58,7 +58,21 @@ const cars = [
 ];
 
 for (i = 0; i < cars.length; i++) {
-  cars[i].licensePlate = "DFG51FD";
+  for (let i = 0; i < cars.length; i++) {
+    switch (cars[i].brand) {
+      case "Ford":
+        cars[i].licensePlate = "ABC1234";
+        break;
+      case "Peugeot":
+        cars[i].licensePlate = "DEF5678";
+        break;
+      case "Volkswagen":
+        cars[i].licensePlate = "GHI9012";
+        break;
+      default:
+        cars[i].licensePlate = "UNKNOWN";
+    }
+  }
 }
 console.log(cars);
 /* ESERCIZIO 6
